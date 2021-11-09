@@ -8,6 +8,21 @@
 
 - Naver API 연동
   - 네이버 아이디로 로그인 구현
+    - 컨트롤러 : Get 방식, Naver 로그인 URL을 Login Form에 생성 후 전달
+    - Naver API Package
+      - NaverLoginAPI.java
+      - NaverLoginBO.java(네이버 아이디 로그인 URL 생성 및 콜백 로직 처리 클래스)
+
+<br>
+
+### :pushpin: 2021-11-10일 목표
+
+- Naver API 연동 전체 구현
+  - 네이버 아이디로 로그인 이후 성공 및 실패에 대한 콜백 URL 처리
+  - 사용자 로그인 세션 처리
+- Naver API 검색 기능 일부 구현
+  - 검색창 구현
+  - 검색된 내용 배치 구상
 
 
 
